@@ -1,0 +1,162 @@
+.bode{
+background-color: rgba(247, 67, 67, 0.959);
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+margin: 0;
+padding: 0;
+}
+.outerdiv{
+background-color: white;
+text-align: center;
+width: 380px;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  border-bottom: solid; 
+  border-color: rgb(240, 229, 229);
+}
+.right img{
+  height: 30px;
+  width: 30px;
+ margin-right: 10px;
+}
+.right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 5px;
+}
+.left{
+  margin-left: 20px;
+}
+.left img{
+  height: 50px;
+  width: 100px;
+}
+.thumb{
+  display: block;
+  height: 230px;
+width: 380px;
+}
+.first{
+color: black;
+margin-top: 0;
+}
+.second{
+color: gray;
+font-size: small;
+}
+.forth{
+display: inline-block;
+position: relative;
+bottom: 0px;
+width: 380px;
+height: 320px;
+bottom: 0px;
+}
+.fifth{
+display: inline-block;
+}
+.six{
+display: inline-block;
+width: 230px;
+text-align: left;
+margin-left: 10px;
+}
+.seven{
+width: 40px; 
+border-radius: 40px;
+}
+.eight{
+margin-bottom: 20px;
+}
+.nine{
+display: grid;
+width: 380px;
+grid-template-columns: 50px 230px 100px ;
+}
+.elev{
+display: grid;
+grid-template-columns: 1fr ;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+margin-top: 20px;
+margin-bottom: 100px;
+row-gap: 30px;
+}
+.footer{
+display: flex;
+flex-direction: row;
+align-items: center;
+text-align: center;
+justify-content: space-between;
+background-color: white;
+border-top: solid;
+bottom: 0px;
+  width: 380px;
+border-color: rgb(240, 229, 229);
+position: fixed;
+}
+.footer img{
+height: 30px;
+  width: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.side{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 60px;
+}
+.side:hover{
+background-color: rgb(212, 208, 208);
+border-radius: 100px;
+}
+.dive{
+width: 30px;
+}
+.dive:hover{
+background-color:rgb(212, 208, 208);
+border-radius: 100px;
+}
+.tsix{
+position: absolute;
+background-color: rgb(44, 41, 41);
+border-radius: 5px;
+width: 40px;
+color: white;
+bottom: 100px;
+right: 10px; 
+}
+.tseven{
+position: absolute;
+background-color: red;
+border-radius: 5px;
+width: 45px;
+color: white;
+bottom: 100px;
+right: 10px; 
+}
+.teight{
+position: absolute;
+background-color: rgb(44, 41, 41);
+border-radius: 5px;
+width: 50px;
+color: white;
+bottom: 100px;
+right: 10px; 
+}
+.dot{
+height: 15px;
+width: 15px;
+}
+.doot{
+margin-right: -80px;
+}
